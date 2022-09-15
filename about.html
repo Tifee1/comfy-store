@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABOUT || Comfy</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+        <!-- navbar -->
+    <nav class="navbar page">
+      <div class="nav-center">
+        <div>
+          <button class="toggle-nav">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-links">
+            <li>
+              <a href="./index.html" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="./allProducts.html" class="nav-link">Products</a>
+            </li>
+            <li>
+              <a href="./about.html" class="nav-link">About</a>
+            </li>
+          </ul>
+        </div>
+        <img src="./images/logo-black.svg" alt="" class="nav-logo" />
+        <div class="toggle-container">
+          <button class="toggle-cart">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <span class="cart-item-count">0</span>
+        </div>
+      </div>
+    </nav>
+    <!-- hero -->
+    <section class="page-hero">
+     <div class="section-center">
+      <h3 class="page-hero-title">
+        home / about
+      </h3>
+     </div>
+    </section>
+    <section class="section section-center about-page">
+      <div class="title">
+        <h2>
+          <span>/</span>about us
+        </h2>
+      </div>
+      <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sed dolorem illum dolore perferendis quis perspiciatis totam animi laborum rerum ducimus atque iusto, nobis doloremque culpa voluptatibus maiores quo tempore eum dolores laboriosam sapiente a quaerat quos. Recusandae veniam vero atque non culpa consequuntur mollitia ipsam animi facilis nesciunt iste consectetur delectus inventore quo officia fuga tempore temporibus quae eius a quas quis, ipsum cum? Incidunt architecto, provident accusantium veritatis iusto dolore nulla expedita officiis, impedit recusandae perspiciatis consequatur! Obcaecati, deleniti. Quidem et fugit, obcaecati nihil, iure ipsum odit molestiae tempora voluptatibus beatae eum, aliquam nulla minima est aperiam quo illo facere?</p>
+    </section>
+
+    <!-- sidebar -->
+    <div class="sidebar-overlay">
+      <aside class="sidebar">
+        <button class="sidebar-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+          <li>
+            <a href="./index.html" class="sidebar-link">
+              <i class="fas fa-home fa-fw"></i>home
+            </a>
+          </li>
+          <li>
+            <a href="./allProducts.html" class="sidebar-link">
+              <i class="fas fa-couch fa-fw"></i>products
+            </a>
+          </li>
+          <li>
+            <a href="./about.html" class="sidebar-link">
+              <i class="fas fa-book fa-fw"></i>about
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <!-- cart-overlay-->
+    <div class="cart-overlay">
+      <aside class="cart">
+        <button class="cart-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <header>
+          <h3 class="text-slanted">Your cart</h3>
+        </header>
+        <div class="cart-items">
+          
+        </div>
+        <footer>
+          <h3 class="cart-total text-slanted">total: &#8358 0.00</h3>
+          <button class="cart-checkout btn">checkout</button>
+        </footer>
+      </aside>
+    </div>
+
+    <!-- javascript -->
+    <script type="module" src="./src/pages/about.js"></script>
+  </body>
+</html>

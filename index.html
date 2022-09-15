@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME || Comfy</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div>
+          <button class="toggle-nav">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-links">
+            <li>
+              <a href="./index.html" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="./allProducts.html" class="nav-link">Products</a>
+            </li>
+            <li>
+              <a href="./about.html" class="nav-link">About</a>
+            </li>
+          </ul>
+        </div>
+        <img src="./images/logo-white.svg" alt="" class="nav-logo" />
+        <div class="toggle-container">
+          <button class="toggle-cart">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <span class="cart-item-count">0</span>
+        </div>
+      </div>
+    </nav>
+    <!-- hero -->
+    <section class="hero">
+      <div class="hero-container">
+        <h1 class="text-slanted">Rest, Relax, Unwind</h1>
+        <h3>Embrace your choices - we do</h3>
+        <a href="./allProducts.html" class="hero-btn">shop now</a>
+      </div>
+    </section>
+
+    <!-- sidebar -->
+    <div class="sidebar-overlay">
+      <aside class="sidebar">
+        <button class="sidebar-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+          <li>
+            <a href="./index.html" class="sidebar-link">
+              <i class="fas fa-home fa-fw"></i>home
+            </a>
+          </li>
+          <li>
+            <a href="./allProducts.html" class="sidebar-link">
+              <i class="fas fa-couch fa-fw"></i>products
+            </a>
+          </li>
+          <li>
+            <a href="./about.html" class="sidebar-link">
+              <i class="fas fa-book fa-fw"></i>about
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <!-- cart-overlay-->
+    <div class="cart-overlay">
+      <aside class="cart">
+        <button class="cart-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <header>
+          <h3 class="text-slanted">Your cart</h3>
+        </header>
+        <div class="cart-items">
+          <!-- <article class="cart-item" data-id="">
+            <img src="./images/main-bcg.jpeg" alt="" class="cart-item-img">
+            <div>
+              <h4 class="cart-item-name">high back bench</h4>
+              <p class="cart-item-price">&#8358;20,000</p>
+              <button class="cart-item-remove-btn">remove</button>
+            </div>
+            <div>
+              <button class="cart-item-increase-btn">
+                <i class="fas fa-chevron-up"></i></button>
+                <p class="cart-item-amount">1</p>
+              <button class="cart-item-decrease-btn">
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+          </article> -->
+        </div>
+        <footer>
+          <h3 class="cart-total text-slanted">total: &#8358 0.00</h3>
+          <button class="cart-checkout btn">checkout</button>
+        </footer>
+      </aside>
+    </div>
+
+    <!-- featured product -->
+    <section class="section featured">
+      <div class="title">
+        <h2><span>/</span>featured</h2>
+      </div>
+      <div class="featured-center section-center">
+        <h2 class="section-loading">loading...</h2>
+      <!-- single product
+      <article class="product">
+        <div class="product-container">
+          <img src="./images/main-bcg.jpeg" alt="" class="product-img img">
+          <div class="product-icons">
+            <a href="./product.html?id=" class="product-icon">
+              <i class="fas fa-search"></i>
+            </a>
+            <button class="product-cart-btn product-icon" data-id="">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <footer>
+          <p class="product-name">high back bench</p>
+          <h4 class="product-price">&#8358 20,000</h4>
+        </footer>
+      </article> -->
+    </div>
+    <a href="./allProducts.html" class="btn">all products</a>
+    </section>
+
+    <!-- javascript -->
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
